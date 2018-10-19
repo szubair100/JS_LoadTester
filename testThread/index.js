@@ -81,11 +81,8 @@ async function saveResult(json) {
   try {
     const client = await MongoClient.connect(process.env.MONGO_URL);
     console.log("client", client);
-    const db = client.db("keeptrac2");
+    const db = client.db("");
     const loadTestResults = db.collection("loadTestResults");
-    //  loadTestResults.aggregate({
-    //    $group: { testName: "$name", maxValue: { $max: "$value" } }
-    //  });
 
     loadTestResults.insert({ times: json, creDttm: new Date() });
     client.close();
@@ -139,16 +136,11 @@ const run = async () => {
         //   var fileName = testFile.split(".")[0] + "Result.json";
         //   var i = 1;
 
-        //   while (!fs.existsSync(fileName)) {
-        //     fileName = fileName.split(".")[0] + "(" + i.toString() + ".json";
-        //     i++;
-        //     break;
-        //   }
         //   //}).then(() => {
-        //   var json = JSON.stringify(workers, null, 2);
-        //   console.log(fileName);
-        //   fs.writeFile("./data/" + fileName, json, "utf8", error => {
-        //     if (error) throw error;
+          var json = JSON.stringify(workers, null, 2);
+          console.log(fileName);
+          fs.writeFile("./data/" + fileName, json, "utf8", error => {
+            if (error) throw error;
         //   });
       });
     // })

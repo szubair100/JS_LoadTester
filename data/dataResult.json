@@ -1,0 +1,49 @@
+[
+  {
+    "Current Date and Time": "10/19/2018, 10:17:24 AM"
+  },
+  {
+    "id": "Average Time",
+    "time": "461.4908933999999 ms"
+  },
+  {
+    "id": "Worker 0",
+    "time": "630.119754 ms"
+  },
+  {
+    "id": "Worker 1",
+    "time": "631.660093 ms"
+  },
+  {
+    "id": "Worker 2",
+    "time": "623.973853 ms"
+  },
+  {
+    "id": "Worker 3",
+    "time": "607.824391 ms"
+  },
+  {
+    "id": "Worker 4",
+    "time": "558.281675 ms"
+  },
+  {
+    "id": "Worker 5",
+    "time": "470.978357 ms"
+  },
+  {
+    "id": "Worker 6",
+    "time": "395.655351 ms"
+  },
+  {
+    "id": "Worker 7",
+    "time": "309.617613 ms"
+  },
+  {
+    "id": "Worker 8",
+    "time": "229.717598 ms"
+  },
+  {
+    "id": "Worker 9",
+    "time": "157.080249 ms"
+  }
+]

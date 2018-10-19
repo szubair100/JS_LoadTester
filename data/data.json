@@ -1,0 +1,70 @@
+{
+  "configuration": {
+    "methodCall": "create-user",
+    "threadNum": "10",
+    "endPointAddress": "localhost",
+    "portNumber": "3000"
+  },
+  "data": [
+    {
+      "email": "llllzxiao@meridian-integration.com",
+      "password": "Meridian2016$",
+      "username": "test123rrrr",
+      "profile": {
+        "securityQuestions": [
+          {
+            "q": "In what city were you born?",
+            "a": "asfdsafd"
+          },
+          {
+            "q": "What was the color of your first car?",
+            "a": "asdfsafd"
+          },
+          {
+            "q": "In what city did your parents meet?",
+            "a": "asdfsfd"
+          }
+        ],
+        "communication": {
+          "method": {
+            "email": true,
+            "sms": false
+          },
+          "emailFormat": "HTML",
+          "cellphone": "+19192605214"
+        },
+        "siteName": "SJG"
+      }
+    },
+    {
+      "email": "MEMEMEszubair@meridian-integration.com",
+      "password": "Meridian2016$",
+      "username": "test1234aaa",
+      "profile": {
+        "securityQuestions": [
+          {
+            "q": "In what city were you born?",
+            "a": "asfdsafd"
+          },
+          {
+            "q": "What was the color of your first car?",
+            "a": "asdfsafd"
+          },
+          {
+            "q": "In what city did your parents meet?",
+            "a": "asdfsfd"
+          }
+        ],
+        "communication": {
+          "method": {
+            "email": true,
+            "sms": false
+          },
+          "emailFormat": "HTML",
+          "cellphone": "+19192605214"
+        },
+        "siteName": "SJG"
+      }
+    }
+  ]
+}

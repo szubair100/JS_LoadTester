@@ -1,0 +1,24 @@
+{
+  "name": "ddpclient_multithreaded",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-worker ./testThread/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asteroid": "^2.0.3",
+    "dependency": "0.0.1",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "inquirer": "^6.2.0",
+    "mongoclient": "^1.0.3",
+    "nodemon": "^1.18.4",
+    "ora": "^3.0.0",
+    "webworker-threads": "^0.7.17",
+    "ws": "^6.1.0"
+  }
+}
